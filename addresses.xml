@@ -9,7 +9,7 @@
 <address>
     <name>GOOGLEDNS1</name>
     <address-type>IPADDRESS</address-type>
-    <ip-address>8.8.8.11</ip-address>
+    <ip-address>8.8.8.10</ip-address>
     <description>SD API Update</description>
     <definition-type>CUSTOM</definition-type>
 </address>
