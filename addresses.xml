@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<address>
-    <name>GOOGLEDNS</name>
-    <address-type>IPADDRESS</address-type>
-    <ip-address>8.8.8.8</ip-address>
-    <description>SD API Update</description>
-    <definition-type>CUSTOM</definition-type>
-</address>
-<address>
-    <name>GOOGLEDNS1</name>
-    <address-type>IPADDRESS</address-type>
-    <ip-address>8.8.8.100</ip-address>
-    <description>SD API Update</description>
-    <definition-type>CUSTOM</definition-type>
-</address>
-<address>
-    <name>GOOGLEDNS2</name>
-    <address-type>IPADDRESS</address-type>
-    <ip-address>8.8.8.110</ip-address>
-    <description>SD API Update</description>
-    <definition-type>CUSTOM</definition-type>
-</address>
+<addresses>
+    <address>
+        <name>GOOGLEDNS</name>
+        <address-type>IPADDRESS</address-type>
+        <ip-address>8.8.8.8</ip-address>
+        <description>SD API Update</description>
+        <definition-type>CUSTOM</definition-type>
+    </address>
+    <address>
+        <name>GOOGLEDNS1</name>
+        <address-type>IPADDRESS</address-type>
+        <ip-address>8.8.8.100</ip-address>
+        <description>SD API Update</description>
+        <definition-type>CUSTOM</definition-type>
+    </address>
+    <address>
+        <name>GOOGLEDNS2</name>
+        <address-type>IPADDRESS</address-type>
+        <ip-address>8.8.8.110</ip-address>
+        <description>SD API Update</description>
+        <definition-type>CUSTOM</definition-type>
+    </address>
+</addresses>
