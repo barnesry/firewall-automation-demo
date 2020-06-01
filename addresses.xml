@@ -17,7 +17,7 @@
     <address>
         <name>AzureCloud.westeurope</name>
         <address-type>NETWORK</address-type>
-        <ip-address>13.69.0.0/17</ip-address>
+        <ip-address>13.69.0.0/18</ip-address>
         <description>SD API Update</description>
         <definition-type>CUSTOM</definition-type>
     </address>
