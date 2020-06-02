@@ -3,7 +3,7 @@
     <address>
         <name>AzureCloud.ukwest</name>
         <address-type>NETWORK</address-type>
-        <ip-address>20.39.160.0/21</ip-address>
+        <ip-address>20.39.160.0/19</ip-address>
         <description>SD API Update</description>
         <definition-type>CUSTOM</definition-type>
     </address>
