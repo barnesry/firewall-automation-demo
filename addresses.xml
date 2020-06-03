@@ -21,4 +21,11 @@
         <description>SD API Update</description>
         <definition-type>CUSTOM</definition-type>
     </address>
+    <address>
+        <name>AzureCloud.someothercontinent</name>
+        <address-type>NETWORK</address-type>
+        <ip-address>11.11.10.0/24</ip-address>
+        <description>SD API Update</description>
+        <definition-type>CUSTOM</definition-type>
+    </address>
 </addresses>
