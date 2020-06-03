@@ -3,8 +3,8 @@
     <address>
         <name>AzureCloud.ukwest</name>
         <address-type>NETWORK</address-type>
-        <ip-address>20.39.160.0/19</ip-address>
-        <description>SD API Update</description>
+        <ip-address>20.39.160.0/21</ip-address>
+        <description>Customer Update 02-June-2020</description>
         <definition-type>CUSTOM</definition-type>
     </address>
     <address>
@@ -18,13 +18,6 @@
         <name>AzureCloud.westeurope</name>
         <address-type>NETWORK</address-type>
         <ip-address>13.69.0.0/20</ip-address>
-        <description>SD API Update</description>
-        <definition-type>CUSTOM</definition-type>
-    </address>
-    <address>
-        <name>AzureCloud.testdomain</name>
-        <address-type>NETWORK</address-type>
-        <ip-address>13.90.0.0/20</ip-address>
         <description>SD API Update</description>
         <definition-type>CUSTOM</definition-type>
     </address>
