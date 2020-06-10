@@ -24,8 +24,15 @@
     <address>
         <name>AzureCloud.someothercontinent</name>
         <address-type>NETWORK</address-type>
-        <ip-address>11.11.10.0/18</ip-address>
-        <description>SD API NEW UPDATE</description>
+        <ip-address>11.11.10.0/20</ip-address>
+        <description>June 10 2020 Update</description>
         <definition-type>CUSTOM</definition-type>
     </address>
+    <address>
+        <name>AzureCloud.someothercontinent111</name>
+        <address-type>NETWORK</address-type>
+        <ip-address>11.132.10.0/20</ip-address>
+        <description>June 10 2020 Update</description>
+        <definition-type>CUSTOM</definition-type>
+    </address>    
 </addresses>

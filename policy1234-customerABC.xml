@@ -1,0 +1,43 @@
+<policy owner_email="barnesry@org.net" org="My Company Department" security_approval="1234" request_date="06012020" ticket_num="ICM-5512">
+    <from-zone-name>trust</from-zone-name>
+    <to-zone-name>untrust</to-zone-name>
+    <rule>
+        <name>reject-aws</name>
+        <description>competition is bad</description>
+        <match>
+            <source-address>any</source-address>
+            <destination-address>AWS-PUBLIC</destination-address>
+            <application>any</application>
+        </match>
+        <then>
+            <deny/>
+        </then>
+    </rule>
+    <rule>
+        <name>allow-azure</name>
+        <match>
+            <source-address>any</source-address>
+            <destination-address>AzureCloud.westcentralus</destination-address>
+            <destination-address>AzureCloud.westeurope</destination-address>
+            <destination-address>MICROSOFT-PUBLIC</destination-address>
+            <destination-address>AzureCloud.ukwest</destination-address>
+            <application>any</application>
+        </match>
+        <then>
+            <permit>
+            </permit>
+        </then>
+    </rule>
+    <rule>
+        <name>default-permit</name>
+        <match>
+            <source-address>any</source-address>
+            <destination-address>any</destination-address>
+            <application>any</application>
+        </match>
+        <then>
+            <permit>
+            </permit>
+        </then>
+    </rule>
+</policy>
